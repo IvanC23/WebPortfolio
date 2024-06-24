@@ -3304,19 +3304,32 @@ fieldset:disabled .btn {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: rgb(36, 35, 103);  /* Main background color */
-  --bs-btn-border-color: rgb(36, 35, 103);  /* Main border color */
-  --bs-btn-hover-color: #fff;  /* Text color on hover */
-  --bs-btn-hover-bg: rgb(30, 29, 85);  /* Slightly darker shade for hover background */
-  --bs-btn-hover-border-color: rgb(30, 29, 85);  /* Hover border color */
-  --bs-btn-focus-shadow-rgb: 36, 35, 103;  /* Focus shadow color */
-  --bs-btn-active-color: #fff;  /* Text color when active */
-  --bs-btn-active-bg: rgb(25, 24, 71);  /* Darker shade for active background */
-  --bs-btn-active-border-color: rgb(25, 24, 71);  /* Active border color */
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);  /* Shadow effect when active */
-  --bs-btn-disabled-color: #fff;  /* Text color when disabled */
-  --bs-btn-disabled-bg: rgb(36, 35, 103);  /* Background color when disabled */
-  --bs-btn-disabled-border-color: rgb(36, 35, 103);  /* Border color when disabled */
+  --bs-btn-bg: rgb(36, 35, 103);
+  /* Main background color */
+  --bs-btn-border-color: rgb(36, 35, 103);
+  /* Main border color */
+  --bs-btn-hover-color: #fff;
+  /* Text color on hover */
+  --bs-btn-hover-bg: rgb(30, 29, 85);
+  /* Slightly darker shade for hover background */
+  --bs-btn-hover-border-color: rgb(30, 29, 85);
+  /* Hover border color */
+  --bs-btn-focus-shadow-rgb: 36, 35, 103;
+  /* Focus shadow color */
+  --bs-btn-active-color: #fff;
+  /* Text color when active */
+  --bs-btn-active-bg: rgb(25, 24, 71);
+  /* Darker shade for active background */
+  --bs-btn-active-border-color: rgb(25, 24, 71);
+  /* Active border color */
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  /* Shadow effect when active */
+  --bs-btn-disabled-color: #fff;
+  /* Text color when disabled */
+  --bs-btn-disabled-bg: rgb(36, 35, 103);
+  /* Background color when disabled */
+  --bs-btn-disabled-border-color: rgb(36, 35, 103);
+  /* Border color when disabled */
 }
 
 .btn-secondary {
@@ -3338,19 +3351,32 @@ fieldset:disabled .btn {
 
 .btn-success {
   --bs-btn-color: #fff;
-  --bs-btn-bg: rgb(36, 35, 103);  /* Main background color */
-  --bs-btn-border-color: rgb(36, 35, 103);  /* Main border color */
-  --bs-btn-hover-color: #fff;  /* Text color on hover */
-  --bs-btn-hover-bg: rgb(30, 29, 85);  /* Slightly darker shade for hover background */
-  --bs-btn-hover-border-color: rgb(30, 29, 85);  /* Hover border color */
-  --bs-btn-focus-shadow-rgb: 36, 35, 103;  /* Focus shadow color */
-  --bs-btn-active-color: #fff;  /* Text color when active */
-  --bs-btn-active-bg: rgb(25, 24, 71);  /* Darker shade for active background */
-  --bs-btn-active-border-color: rgb(25, 24, 71);  /* Active border color */
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);  /* Shadow effect when active */
-  --bs-btn-disabled-color: #fff;  /* Text color when disabled */
-  --bs-btn-disabled-bg: rgb(36, 35, 103);  /* Background color when disabled */
-  --bs-btn-disabled-border-color: rgb(36, 35, 103);  /* Border color when disabled */
+  --bs-btn-bg: rgb(36, 35, 103);
+  /* Main background color */
+  --bs-btn-border-color: rgb(36, 35, 103);
+  /* Main border color */
+  --bs-btn-hover-color: #fff;
+  /* Text color on hover */
+  --bs-btn-hover-bg: rgb(30, 29, 85);
+  /* Slightly darker shade for hover background */
+  --bs-btn-hover-border-color: rgb(30, 29, 85);
+  /* Hover border color */
+  --bs-btn-focus-shadow-rgb: 36, 35, 103;
+  /* Focus shadow color */
+  --bs-btn-active-color: #fff;
+  /* Text color when active */
+  --bs-btn-active-bg: rgb(25, 24, 71);
+  /* Darker shade for active background */
+  --bs-btn-active-border-color: rgb(25, 24, 71);
+  /* Active border color */
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  /* Shadow effect when active */
+  --bs-btn-disabled-color: #fff;
+  /* Text color when disabled */
+  --bs-btn-disabled-bg: rgb(36, 35, 103);
+  /* Background color when disabled */
+  --bs-btn-disabled-border-color: rgb(36, 35, 103);
+  /* Border color when disabled */
 }
 
 .btn-info {
@@ -3439,20 +3465,34 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  --bs-btn-color: rgb(36, 35, 103);  /* Main text and border color */
-  --bs-btn-border-color: rgb(36, 35, 103);  /* Main border color */
-  --bs-btn-hover-color: #fff;  /* Text color on hover */
-  --bs-btn-hover-bg: rgb(36, 35, 103);  /* Background color on hover */
-  --bs-btn-hover-border-color: rgb(36, 35, 103);  /* Border color on hover */
-  --bs-btn-focus-shadow-rgb: 36, 35, 103;  /* Focus shadow color */
-  --bs-btn-active-color: #fff;  /* Text color when active */
-  --bs-btn-active-bg: rgb(36, 35, 103);  /* Background color when active */
-  --bs-btn-active-border-color: rgb(36, 35, 103);  /* Border color when active */
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);  /* Shadow effect when active */
-  --bs-btn-disabled-color: rgb(36, 35, 103);  /* Text color when disabled */
-  --bs-btn-disabled-bg: transparent;  /* Background color when disabled */
-  --bs-btn-disabled-border-color: rgb(36, 35, 103);  /* Border color when disabled */
-  --bs-gradient: none;  /* No gradient */
+  --bs-btn-color: rgb(36, 35, 103);
+  /* Main text and border color */
+  --bs-btn-border-color: rgb(36, 35, 103);
+  /* Main border color */
+  --bs-btn-hover-color: #fff;
+  /* Text color on hover */
+  --bs-btn-hover-bg: rgb(36, 35, 103);
+  /* Background color on hover */
+  --bs-btn-hover-border-color: rgb(36, 35, 103);
+  /* Border color on hover */
+  --bs-btn-focus-shadow-rgb: 36, 35, 103;
+  /* Focus shadow color */
+  --bs-btn-active-color: #fff;
+  /* Text color when active */
+  --bs-btn-active-bg: rgb(36, 35, 103);
+  /* Background color when active */
+  --bs-btn-active-border-color: rgb(36, 35, 103);
+  /* Border color when active */
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  /* Shadow effect when active */
+  --bs-btn-disabled-color: rgb(36, 35, 103);
+  /* Text color when disabled */
+  --bs-btn-disabled-bg: transparent;
+  /* Background color when disabled */
+  --bs-btn-disabled-border-color: rgb(36, 35, 103);
+  /* Border color when disabled */
+  --bs-gradient: none;
+  /* No gradient */
 }
 
 .btn-outline-secondary {
@@ -3490,20 +3530,34 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-info {
-  --bs-btn-color: rgb(36, 35, 103);  /* Main text and border color */
-  --bs-btn-border-color: rgb(36, 35, 103);  /* Main border color */
-  --bs-btn-hover-color: #fff;  /* Text color on hover */
-  --bs-btn-hover-bg: rgb(36, 35, 103);  /* Background color on hover */
-  --bs-btn-hover-border-color: rgb(36, 35, 103);  /* Border color on hover */
-  --bs-btn-focus-shadow-rgb: 36, 35, 103;  /* Focus shadow color */
-  --bs-btn-active-color: #fff;  /* Text color when active */
-  --bs-btn-active-bg: rgb(36, 35, 103);  /* Background color when active */
-  --bs-btn-active-border-color: rgb(36, 35, 103);  /* Border color when active */
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);  /* Shadow effect when active */
-  --bs-btn-disabled-color: rgb(36, 35, 103);  /* Text color when disabled */
-  --bs-btn-disabled-bg: transparent;  /* Background color when disabled */
-  --bs-btn-disabled-border-color: rgb(36, 35, 103);  /* Border color when disabled */
-  --bs-gradient: none;  /* No gradient */
+  --bs-btn-color: rgb(36, 35, 103);
+  /* Main text and border color */
+  --bs-btn-border-color: rgb(36, 35, 103);
+  /* Main border color */
+  --bs-btn-hover-color: #fff;
+  /* Text color on hover */
+  --bs-btn-hover-bg: rgb(36, 35, 103);
+  /* Background color on hover */
+  --bs-btn-hover-border-color: rgb(36, 35, 103);
+  /* Border color on hover */
+  --bs-btn-focus-shadow-rgb: 36, 35, 103;
+  /* Focus shadow color */
+  --bs-btn-active-color: #fff;
+  /* Text color when active */
+  --bs-btn-active-bg: rgb(36, 35, 103);
+  /* Background color when active */
+  --bs-btn-active-border-color: rgb(36, 35, 103);
+  /* Border color when active */
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  /* Shadow effect when active */
+  --bs-btn-disabled-color: rgb(36, 35, 103);
+  /* Text color when disabled */
+  --bs-btn-disabled-bg: transparent;
+  /* Background color when disabled */
+  --bs-btn-disabled-border-color: rgb(36, 35, 103);
+  /* Border color when disabled */
+  --bs-gradient: none;
+  /* No gradient */
 }
 
 .btn-outline-warning {
@@ -12866,4 +12920,12 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+
+.portfolio-item img {
+  width: 100%;
+  height: 300px;
+  /* You can adjust this value to the desired height */
+  object-fit: cover;
 }
