@@ -12929,3 +12929,94 @@ html {
   /* You can adjust this value to the desired height */
   object-fit: cover;
 }
+
+.slot-machine-container {
+  position: relative;
+}
+
+.slot-machine-image {
+  max-width: 75%;
+  /* Ensure the image scales down to fit the container */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.slot-machine-button {
+  position: absolute;
+  top: 34%;
+  /* Center vertically */
+  left: 50.75%;
+  /* Center horizontally */
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+  /* Initial color */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.slot-machine-button:hover,
+.slot-machine-button:active {
+  color: white;
+  /* Change to white on hover and click */
+}
+
+.slot-machine-button:hover {
+  transform: translate(-50%, -50%) scale(0.9);
+  /* Smaller on hover */
+}
+
+.slot-machine-button:active {
+  animation: bounce 0.3s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .text-center.text-lg-end {
+    text-align: center !important;
+    /* Ensure text is centered on smaller screens */
+  }
+
+  .text-lg-end {
+    margin-bottom: 20px;
+    /* Add margin between text and slot machine on smaller screens */
+  }
+}
+
+.contact-text {
+  font-family: Arial, sans-serif;
+  /* Example of a different font style */
+}
+
+.contact-link {
+  color: #ffffff;
+  /* White color */
+  font-family: Arial, sans-serif;
+  /* Formal font for the link */
+  text-decoration: none;
+  /* Remove underline */
+  transition: color 0.3s ease;
+  /* Smooth color transition */
+}
+
+.contact-link:hover {
+  color: #cccccc;
+  /* Light grey color on hover */
+}
